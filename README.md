@@ -1,2 +1,2 @@
-# -Project--Weather-App-
+# -Project--Weather-App
 A simple weather app
