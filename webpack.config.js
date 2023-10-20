@@ -16,8 +16,8 @@ const config = {
     path: path.resolve(__dirname, "public/"),
   },
   devServer: {
-    hot: false,
-    liveReload: true,
+    hot: true,
+    liveReload: false,
     open: {
       app: {
         name: "google chrome",

@@ -1,5 +1,7 @@
 * {
   prefers-color-scheme: dark;
+  color: white;
+  font-weight: 300;
 }
 
 #navItems > ul:nth-child(1) > li > strong {
