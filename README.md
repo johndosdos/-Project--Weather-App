@@ -1,2 +1,3 @@
 # Project--Weather-App
-A simple weather app
+
+A simple weather app. Powered by PicoCSS
