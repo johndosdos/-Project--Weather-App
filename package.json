@@ -23,6 +23,7 @@
     "url": "git+https://github.com/johndosdos/Project--Weather-App.git"
   },
   "scripts": {
+    "gh-pages": "git subtree push --prefix public origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "1.0.0"
