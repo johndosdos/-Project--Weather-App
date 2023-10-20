@@ -20,7 +20,7 @@ const config = {
     liveReload: false,
     open: {
       app: {
-        name: "google chrome",
+        name: "firefox",
       },
     },
     host: "localhost",
