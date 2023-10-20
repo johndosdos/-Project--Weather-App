@@ -1,0 +1,41 @@
+* {
+  prefers-color-scheme: dark;
+}
+
+#navItems > ul:nth-child(1) > li > strong {
+  font-size: 1.25rem;
+}
+
+#search {
+  border-radius: 10px;
+  height: 35px;
+
+  font-size: 1rem;
+}
+
+#location {
+  font-size: 2rem;
+}
+
+#navItems > ul:nth-child(3) > li > a:target {
+  color: red;
+}
+
+body > article {
+  margin: 0;
+  padding: 0;
+}
+
+body > main > div:nth-child(1) {
+  text-align: center;
+}
+
+body > main > div:nth-child(1) > h1 {
+  font-size: 3rem;
+}
+
+#navItems > ul:nth-child(1) > li > h3,
+body > main > div:nth-child(1) > p,
+body > main > div > h1 {
+  margin: 0;
+}
