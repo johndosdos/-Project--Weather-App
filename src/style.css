@@ -21,6 +21,19 @@
   color: red;
 }
 
+#navItems > ul:nth-child(1) > li > h3,
+#dateForecast,
+#tempForecast,
+#minmaxForecast,
+body > main > div:nth-child(1) > p,
+body > main > div > h1 {
+  margin: 0;
+}
+
+#dayForecast {
+  text-align: center;
+}
+
 body > article {
   margin: 0;
   padding: 0;
@@ -34,8 +47,8 @@ body > main > div:nth-child(1) > h1 {
   font-size: 3rem;
 }
 
-#navItems > ul:nth-child(1) > li > h3,
-body > main > div:nth-child(1) > p,
-body > main > div > h1 {
-  margin: 0;
+main.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }

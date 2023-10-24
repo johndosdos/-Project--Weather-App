@@ -2,7 +2,7 @@
 <html data-theme="light">
   <head>
     <meta charset="utf-8" />
-    <title>Webpack App</title>
+    <title>Weather</title>
     <link rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.10/css/pico.min.css">
   <script defer src="main.js"></script></head>
@@ -29,19 +29,31 @@
     </article>
     <main class="container">
       <div id="dataContainer">
+        <!--         <p id="location">London, United Kingdom</p>
+        <h1 id="temperature" class="loading" aria-busy="false">13℃</h1>
+        <p id="condition">Moderate rain</p>
+        <p id="minmax">H: 14.5℃ L: 10℃</p> -->
         <p id="location"></p>
-        <h1 id="temperature"></h1>
+        <h1 id="temperature" class="loading" aria-busy="false"></h1>
         <p id="condition"></p>
         <p id="minmax"></p>
       </div>
-      <!--       <div id="dayForecast">
-        <div class="grid">
-          <p>1</p>
-          <p>1</p>
-          <p>1</p>
-          <p>1</p>
-        </div>
-      </div> -->
+      <div>
+        <figure class="grid" id="dayForecast">
+          <table>
+            <tr>
+              <th>Column 1</th>
+              <th>Column 2</th>
+              <th>Column 3</th>
+            </tr>
+            <tr>
+              <td>Data 1</td>
+              <td>Data 2</td>
+              <td>Data 3</td>
+            </tr>
+          </table>
+        </figure>
+      </div>
     </main>
   </body>
 </html>
