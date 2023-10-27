@@ -25,18 +25,45 @@
 #dateForecast,
 #tempForecast,
 #minmaxForecast,
+#dayForecast,
+#dayForecast > table,
 body > main > div:nth-child(1) > p,
-body > main > div > h1 {
+body > main > div > h1,
+body > article {
   margin: 0;
-}
-
-#dayForecast {
-  text-align: center;
 }
 
 body > article {
-  margin: 0;
   padding: 0;
+}
+
+#dayForecast {
+  align-self: center;
+  padding: 0 4rem;
+  text-align: center;
+  width: 70%;
+}
+
+#dayForecast > table > caption {
+  text-align: start;
+  font-size: medium;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-thickness: from-font;
+  padding-bottom: 1rem;
+}
+
+#dayForecast > table > tbody > tr > td:nth-child(1) {
+  font-weight: bold;
+  text-align: start;
+}
+
+#dayForecast > table > tbody > tr > td:nth-child(2) {
+  text-align: center;
+}
+
+#dayForecast > table > tbody > tr > td:nth-child(3) {
+  text-align: end;
 }
 
 body > main > div:nth-child(1) {
@@ -50,5 +77,5 @@ body > main > div:nth-child(1) > h1 {
 main.container {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 5rem;
 }
